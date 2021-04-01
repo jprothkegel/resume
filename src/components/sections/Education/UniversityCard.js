@@ -13,7 +13,7 @@ const UniversityCard = ({ ...props }) => {
     <Card className={classes.card}>
       <CardMedia
         component="img"
-        alt="Contemplative Reptile"
+        alt={t(`education.${college}.name`)}
         height="140"
         image={eduToPhotoMapper.get(college).image}
         title="University"
