@@ -15,7 +15,6 @@ export const useUniversityCardStyles = makeStyles(() => ({
     color: '#AAAAAA',
   },
   link: {
-    textDecoration: 'none',
     color: 'black',
   },
 }));

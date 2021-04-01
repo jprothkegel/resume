@@ -27,4 +27,3 @@ export const useNavBarStyles = makeStyles(() => ({
     transform: 'translate(-50%, -50%)',
   },
 }));
-

@@ -12,7 +12,7 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { useJobStyles } from './styles';
 
 const Job = ({ ...props }) => {
-  const { title, charge, date, index, descriptions } = props;
+  const { title, charge, date, index, descriptions, link } = props;
   const classes = useJobStyles();
   const [expanded, setExpanded] = useState(false);
 
@@ -35,7 +35,14 @@ const Job = ({ ...props }) => {
         onChange={handleChange('panel1')}
       >
         <AccordionSummary expandIcon={<FontAwesomeIcon icon={faChevronDown} />}>
-          <Typography className={classes.title}>{title}</Typography>
+          <a
+            href={link}
+            target="_blank"
+            rel="noreferrer"
+            className={classes.link}
+          >
+            <Typography className={classes.title}>{title}</Typography>
+          </a>
         </AccordionSummary>
         <AccordionDetails>
           <Box display="flex" flexDirection="column">
@@ -59,6 +66,7 @@ Job.propTypes = {
   date: PropTypes.string,
   index: PropTypes.number,
   descriptions: PropTypes.array,
+  link: PropTypes.string,
 };
 
 export default Job;

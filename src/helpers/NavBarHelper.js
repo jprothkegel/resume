@@ -4,17 +4,9 @@ import {
   faBrain,
   faUniversity,
   faLanguage,
-  faTableTennis,
 } from '@fortawesome/free-solid-svg-icons';
 
-export const titles = [
-  'aboutme',
-  'work',
-  'skills',
-  'edu',
-  'lang',
-  'hobbies',
-];
+export const titles = ['aboutme', 'work', 'skills', 'edu', 'lang'];
 
 export const titleIconMapper = new Map([
   ['aboutme', faUser],
@@ -22,5 +14,4 @@ export const titleIconMapper = new Map([
   ['skills', faBrain],
   ['edu', faUniversity],
   ['lang', faLanguage],
-  ['hobbies', faTableTennis],
 ]);

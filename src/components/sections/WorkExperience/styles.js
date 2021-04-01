@@ -12,4 +12,7 @@ export const useJobStyles = makeStyles(() => ({
     fontSize: 14,
     marginBottom: 10,
   },
+  link: {
+    color: 'black',
+  },
 }));
