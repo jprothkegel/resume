@@ -1,11 +1,14 @@
-import { createMuiTheme } from "@material-ui/core";
+import { createMuiTheme } from '@material-ui/core';
 
 const MainTheme = createMuiTheme({
+  typography: {
+    fontFamily: ['Poppins'],
+  },
   overrides: {
     MuiCssBaseline: {
-      "@global": {
+      '@global': {
         body: {
-          backgroundColor: "#449dfc",
+          backgroundColor: '#449dfc',
         },
       },
     },

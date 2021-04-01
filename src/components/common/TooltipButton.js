@@ -16,7 +16,7 @@ const TooltipButton = ({ ...props }) => {
 
 TooltipButton.propTypes = {
   title: PropTypes.string,
-  icon: PropTypes.node,
+  icon: PropTypes.object,
   onClick: PropTypes.func,
 };
 

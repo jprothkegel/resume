@@ -5,7 +5,6 @@ export const useLayoutStyles = makeStyles(() => ({
     margin: '50px auto',
     borderRadius: 40,
     maxWidth: '1320px',
-    height: 500,
     padding: 50,
   },
 }));
@@ -17,7 +16,7 @@ export const useNavBarStyles = makeStyles(() => ({
     borderRadius: '50%',
     backgroundColor: 'black',
     position: 'relative',
-    marginRight: 15
+    marginRight: 15,
   },
   typo: {
     color: 'white',
@@ -28,3 +27,4 @@ export const useNavBarStyles = makeStyles(() => ({
     transform: 'translate(-50%, -50%)',
   },
 }));
+
