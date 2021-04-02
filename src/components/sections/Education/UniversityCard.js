@@ -6,8 +6,8 @@ import { useTranslation } from 'react-i18next';
 import { eduToPhotoMapper } from '../../../helpers/EducationHelper';
 
 const UniversityCard = ({ ...props }) => {
-  const { college } = props;
-  const classes = useUniversityCardStyles();
+  const { college, mobile } = props;
+  const classes = useUniversityCardStyles({ mobile });
   const { t } = useTranslation();
   return (
     <Card className={classes.card}>
@@ -43,6 +43,7 @@ const UniversityCard = ({ ...props }) => {
 
 UniversityCard.propTypes = {
   college: PropTypes.string,
+  mobile: PropTypes.bool,
 };
 
 export default UniversityCard;

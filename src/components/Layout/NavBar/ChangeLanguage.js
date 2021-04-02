@@ -16,8 +16,11 @@ const ChangeLanguage = () => {
     else setLang('en');
   };
 
+  const toggleLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
   useEffect(() => {
-    i18n.changeLanguage(lang);
+    toggleLanguage(lang);
   }, [lang]);
 
   return (
@@ -26,6 +29,7 @@ const ChangeLanguage = () => {
         title={t('titles.change')}
         icon={faGlobeAmericas}
         onClick={handleChange}
+        changeLanguage
       />
       <Typography className={classes.typo}>
         {LanguageMapper.get(lang)}

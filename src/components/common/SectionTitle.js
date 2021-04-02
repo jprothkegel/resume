@@ -23,13 +23,18 @@ const useStyles = makeStyles(() => ({
 }));
 
 const SectionTitle = ({ ...props }) => {
-  const { title } = props;
+  const { title, link } = props;
   const classes = useStyles();
-  return <Typography className={classes.title}>{title}</Typography>;
+  return (
+    <div id={link}>
+      <Typography className={classes.title}>{title}</Typography>
+    </div>
+  );
 };
 
 SectionTitle.propTypes = {
   title: PropTypes.string,
+  link: PropTypes.string,
 };
 
 export default SectionTitle;

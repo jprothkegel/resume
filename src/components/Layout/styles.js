@@ -2,10 +2,10 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export const useLayoutStyles = makeStyles(() => ({
   container: {
-    margin: '50px auto',
-    borderRadius: 40,
-    maxWidth: '1320px',
-    padding: 50,
+    margin: (props) => (props.mobile ? 0 : '50px auto'),
+    borderRadius: (props) => (props.mobile ? 0 : 40),
+    maxWidth: (props) => (props.mobile ? '100%' : '1320px'),
+    padding: (props) => (props.mobile ? 20 : '50px 50px 20px 50px'),
   },
 }));
 

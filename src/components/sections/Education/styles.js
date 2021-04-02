@@ -2,7 +2,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export const useUniversityCardStyles = makeStyles(() => ({
   card: {
-    maxWidth: '50%',
+    maxWidth: (props) => (props.mobile ? '100%' : '50%'),
     marginTop: 20,
     marginBottom: 30,
   },

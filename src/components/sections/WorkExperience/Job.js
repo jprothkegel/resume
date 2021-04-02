@@ -12,7 +12,7 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { useJobStyles } from './styles';
 
 const Job = ({ ...props }) => {
-  const { title, charge, date, index, descriptions, link } = props;
+  const { title, charge, date, index, descriptions, link, mobile } = props;
   const classes = useJobStyles();
   const [expanded, setExpanded] = useState(false);
 
@@ -24,12 +24,8 @@ const Job = ({ ...props }) => {
     if (index === 0) setExpanded('panel1');
   }, [index]);
 
-  useEffect(() => {
-    console.log('descript', descriptions);
-  }, [descriptions]);
-
   return (
-    <Box width="50%" marginTop="20px" marginBottom="20px">
+    <Box width={mobile ? '100%' : '50%'} marginTop="20px" marginBottom="20px">
       <Accordion
         expanded={expanded === 'panel1'}
         onChange={handleChange('panel1')}
@@ -67,6 +63,7 @@ Job.propTypes = {
   index: PropTypes.number,
   descriptions: PropTypes.array,
   link: PropTypes.string,
+  mobile: PropTypes.bool,
 };
 
 export default Job;
