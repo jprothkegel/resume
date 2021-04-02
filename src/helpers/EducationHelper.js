@@ -6,7 +6,8 @@ export const eduToPhotoMapper = new Map([
   [
     'usm',
     {
-      image: 'http://www.noticias.usm.cl/wp-content/uploads/UTFSM.jpg',
+      image:
+        'https://revista.sansanos.cl/wp-content/uploads/2011/11/utfsm-600x264.jpg',
       link: USM,
     },
   ],

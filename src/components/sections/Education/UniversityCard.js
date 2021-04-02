@@ -14,7 +14,7 @@ const UniversityCard = ({ ...props }) => {
       <CardMedia
         component="img"
         alt={t(`education.${college}.name`)}
-        height="140"
+        height="200"
         image={eduToPhotoMapper.get(college).image}
         title="University"
       />
