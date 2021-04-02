@@ -16,7 +16,10 @@ const TooltipButton = ({ ...props }) => {
   const classes = useStyles();
   return (
     <Tooltip title={title} arrow>
-      <a href={changeLanguage ? null : `/#${link}`} className={classes.link}>
+      <a
+        href={changeLanguage ? null : `/resume/#${link}`}
+        className={classes.link}
+      >
         <Box
           display="flex"
           alignItems="center"
