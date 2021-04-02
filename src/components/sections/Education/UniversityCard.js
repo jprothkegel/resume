@@ -1,6 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Card, CardContent, CardMedia, Typography } from '@material-ui/core';
+import {
+  Card,
+  CardContent,
+  CardMedia,
+  Typography,
+} from '@material-ui/core';
 import { useUniversityCardStyles } from './styles';
 import { useTranslation } from 'react-i18next';
 import { eduToPhotoMapper } from '../../../helpers/EducationHelper';

@@ -20,7 +20,8 @@ const WorkExperience = ({ ...props }) => {
             returnObjects: true,
           })}
           index={index}
-          link={jobMapper.get(job)}
+          link={jobMapper.get(job).link}
+          image={jobMapper.get(job).image}
           mobile={mobile}
         />
       ))}

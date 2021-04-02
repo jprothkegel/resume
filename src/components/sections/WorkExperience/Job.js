@@ -12,7 +12,16 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { useJobStyles } from './styles';
 
 const Job = ({ ...props }) => {
-  const { title, charge, date, index, descriptions, link, mobile } = props;
+  const {
+    title,
+    charge,
+    date,
+    index,
+    descriptions,
+    link,
+    mobile,
+    image,
+  } = props;
   const classes = useJobStyles();
   const [expanded, setExpanded] = useState(false);
 
@@ -37,7 +46,10 @@ const Job = ({ ...props }) => {
             rel="noreferrer"
             className={classes.link}
           >
-            <Typography className={classes.title}>{title}</Typography>
+            <Box display="flex" alignItems="center">
+              <img className={classes.image} src={image} />
+              <Typography className={classes.title}>{title}</Typography>
+            </Box>
           </a>
         </AccordionSummary>
         <AccordionDetails>
@@ -64,6 +76,7 @@ Job.propTypes = {
   descriptions: PropTypes.array,
   link: PropTypes.string,
   mobile: PropTypes.bool,
+  image: PropTypes.string,
 };
 
 export default Job;

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Box, Typography } from '@material-ui/core';
-import Photo from '../../../assets/photo.jpeg';
+import Profile from '../../../assets/profile.jpeg'
 import { useAboutMeStyles } from './styles';
 
 const AboutMe = ({ ...props }) => {
@@ -15,7 +15,7 @@ const AboutMe = ({ ...props }) => {
         justifyContent="center"
         marginTop={mobile ? '50px' : '110px'}
       >
-        <img className={classes.image} src={Photo} />
+        <img className={classes.image} src={Profile} />
         <Box display="flex" flexDirection="column" justifyContent="center">
           <Typography className={classes.title}>Software Engineer</Typography>
           <Typography className={classes.name}>

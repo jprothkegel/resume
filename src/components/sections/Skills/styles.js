@@ -8,3 +8,14 @@ export const useSkillsStyles = makeStyles(() => ({
     },
   },
 }));
+
+export const useSkillContainerStyles = makeStyles(() => ({
+  container: {
+    padding: 16,
+  },
+  title: {
+    fontSize: 18,
+    fontWeight: 600,
+    marginLeft: 10
+  },
+}));

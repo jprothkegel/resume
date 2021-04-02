@@ -8,6 +8,7 @@ export const useAboutMeStyles = makeStyles(() => ({
     marginRight: (props) => (props.mobile ? null : 40),
     borderRadius: 40,
     margin: (props) => (props.mobile ? '0px auto 20px' : null),
+    objectPosition: '100% 5%'
   },
   title: {
     fontSize: 16,

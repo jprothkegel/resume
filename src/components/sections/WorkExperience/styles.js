@@ -15,4 +15,9 @@ export const useJobStyles = makeStyles(() => ({
   link: {
     color: 'black',
   },
+  image: {
+    height: 20,
+    width: 'auto',
+    marginRight: 10
+  },
 }));

@@ -14,5 +14,27 @@ export const SKILLS = [
   'MongoDB',
   'PostgreSQL',
   'AWS',
+  'Terraform',
   'Git',
+];
+
+export const ADVANCES_SKILLS = [
+  'React',
+  'VueJs',
+  'NodeJs',
+  'Express',
+  'Cypress',
+  'Jest',
+  'Git',
+  'Scrum',
+  'Teamwork',
+  'Mentoring',
+];
+
+export const BASIC_SKILLS = [
+  'Python',
+  'MongoDB',
+  'PostgreSQL',
+  'AWS',
+  'Terraform',
 ];
