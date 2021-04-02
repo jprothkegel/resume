@@ -1,12 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Box, Typography } from '@material-ui/core';
-import Profile from '../../../assets/profile.jpeg'
+import Profile from '../../../assets/profile.jpeg';
 import { useAboutMeStyles } from './styles';
+import { useTranslation } from 'react-i18next';
 
 const AboutMe = ({ ...props }) => {
   const { mobile } = props;
   const classes = useAboutMeStyles({ mobile });
+  const { t } = useTranslation();
   return (
     <div id="aboutme">
       <Box
@@ -14,6 +16,8 @@ const AboutMe = ({ ...props }) => {
         flexDirection={mobile ? 'column' : 'row'}
         justifyContent="center"
         marginTop={mobile ? '50px' : '110px'}
+        maxWidth="80%"
+        margin='0 auto'
       >
         <img className={classes.image} src={Profile} />
         <Box display="flex" flexDirection="column" justifyContent="center">
@@ -22,7 +26,7 @@ const AboutMe = ({ ...props }) => {
             Juan Pablo Rothkegel Ide
           </Typography>
           <Typography className={classes.description}>
-            LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM
+            {t('aboutme.summary')}
           </Typography>
         </Box>
       </Box>
