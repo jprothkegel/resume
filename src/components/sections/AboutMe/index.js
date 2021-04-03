@@ -16,8 +16,8 @@ const AboutMe = ({ ...props }) => {
         flexDirection={mobile ? 'column' : 'row'}
         justifyContent="center"
         marginTop={mobile ? '50px' : '110px'}
-        maxWidth="80%"
-        margin='0 auto'
+        maxWidth={mobile ? null : '80%'}
+        margin="0 auto"
       >
         <img className={classes.image} src={Profile} />
         <Box display="flex" flexDirection="column" justifyContent="center">

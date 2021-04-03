@@ -9,6 +9,7 @@ import { useLayoutStyles } from './styles';
 const Layout = ({ ...props }) => {
   const { mobile } = props;
   const classes = useLayoutStyles({ mobile });
+
   return (
     <Paper className={classes.container}>
       <NavBar mobile={mobile} />

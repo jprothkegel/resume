@@ -7,6 +7,7 @@ import { useMediaQuery } from 'react-responsive';
 
 function App() {
   const isMobile = useMediaQuery({ query: '(max-width: 1200px)' });
+
   return (
     <ThemeProvider theme={MainTheme}>
       <CssBaseline />

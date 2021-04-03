@@ -25,7 +25,7 @@ const SkillContainer = ({ ...props }) => {
 SkillContainer.propTypes = {
   title: PropTypes.string,
   skills: PropTypes.array,
-  icon: PropTypes.string,
+  icon: PropTypes.object,
 };
 
 export default SkillContainer;
