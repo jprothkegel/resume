@@ -2,7 +2,7 @@ import { createMuiTheme } from '@material-ui/core';
 
 const MainTheme = createMuiTheme({
   typography: {
-    fontFamily: ['Poppins'],
+    fontFamily: ['Roboto'],
   },
   overrides: {
     MuiCssBaseline: {
