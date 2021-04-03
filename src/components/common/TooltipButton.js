@@ -13,7 +13,7 @@ const useStyles = makeStyles(() => ({
     '&:hover': {
       color: '#00aaad',
     },
-    marginRight: 10
+    marginRight: 10,
   },
   tooltip: {
     backgroundColor: 'transparent',
@@ -27,7 +27,13 @@ const TooltipButton = ({ ...props }) => {
   const { title, icon, onClick, link, mobile, changeLanguage } = props;
   const classes = useStyles();
   return (
-    <Tooltip classes={{ tooltip: classes.tooltip }} title={title}>
+    <Tooltip
+      classes={{ tooltip: classes.tooltip }}
+      title={title}
+      disableFocusListener={mobile}
+      disableHoverListener={mobile}
+      disableTouchListener={mobile}
+    >
       <a
         href={changeLanguage ? null : `/resume/#${link}`}
         className={classes.link}
