@@ -18,6 +18,11 @@ export const useJobStyles = makeStyles(() => ({
   image: {
     height: 20,
     width: 'auto',
-    marginRight: 10
+    marginRight: 10,
+  },
+  container: {
+    marginTop: 20,
+    marginBottom: 20,
+    padding: '10px 16px',
   },
 }));
