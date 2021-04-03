@@ -25,4 +25,7 @@ export const useJobStyles = makeStyles(() => ({
     marginBottom: 20,
     padding: '10px 16px',
   },
+  li: {
+    textAlign: 'justify',
+  },
 }));

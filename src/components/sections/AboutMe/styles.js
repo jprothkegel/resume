@@ -8,20 +8,20 @@ export const useAboutMeStyles = makeStyles(() => ({
     marginRight: (props) => (props.mobile ? null : 40),
     borderRadius: 40,
     margin: (props) => (props.mobile ? '0px auto 20px' : null),
-    objectPosition: '100% 5%'
+    objectPosition: '100% 5%',
   },
   title: {
     fontSize: 16,
     color: '#AAAAAA',
-    textAlign: (props) => (props.mobile ? 'center' : ''),
+    textAlign: (props) => (props.mobile ? 'center' : 'justify'),
   },
   name: {
     fontSize: (props) => (props.mobile ? 24 : 48),
     fontWeight: 600,
-    textAlign: (props) => (props.mobile ? 'center' : ''),
+    textAlign: (props) => (props.mobile ? 'center' : 'justify'),
   },
   description: {
     fontSize: 14,
-    textAlign: (props) => (props.mobile ? 'center' : ''),
+    textAlign: 'justify'
   },
 }));

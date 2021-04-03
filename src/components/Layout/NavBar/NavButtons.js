@@ -9,7 +9,7 @@ const NavButtons = ({ ...props }) => {
   const { mobile } = props;
   const { t } = useTranslation();
   return (
-    <Box display="flex" flexDirection={mobile ? 'column' : 'row'}>
+    <Box padding="12px" display="flex" flexDirection={mobile ? 'column' : 'row'}>
       {titles.map((title, index) => (
         <TooltipButton
           key={index}

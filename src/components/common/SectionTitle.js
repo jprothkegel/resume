@@ -14,7 +14,7 @@ const useStyles = makeStyles(() => ({
     '&::after': {
       display: 'block',
       position: 'absolute',
-      backgroundColor: '#007ced',
+      backgroundColor: '#00aaad',
       height: 2,
       width: '40px',
       content: '""',

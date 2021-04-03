@@ -2,7 +2,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export const useLanguageCircleStyles = makeStyles(() => ({
   bottom: {
-    color: '#007ced',
+    color: '#00aaad',
   },
   image: {
     height: 100,

@@ -6,4 +6,3 @@ export const useChangeLanguageStyles = makeStyles(() => ({
     fontWeight: 600,
   },
 }));
-

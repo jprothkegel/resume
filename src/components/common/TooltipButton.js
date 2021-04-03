@@ -9,13 +9,25 @@ const useStyles = makeStyles(() => ({
     textDecoration: 'none',
     color: 'black',
   },
+  icon: {
+    '&:hover': {
+      color: '#00aaad',
+    },
+    marginRight: 10
+  },
+  tooltip: {
+    backgroundColor: 'transparent',
+    color: '#AAAAAA',
+    marginTop: '-2px',
+    fontSize: 16,
+  },
 }));
 
 const TooltipButton = ({ ...props }) => {
   const { title, icon, onClick, link, mobile, changeLanguage } = props;
   const classes = useStyles();
   return (
-    <Tooltip title={title} arrow>
+    <Tooltip classes={{ tooltip: classes.tooltip }} title={title}>
       <a
         href={changeLanguage ? null : `/resume/#${link}`}
         className={classes.link}
@@ -24,8 +36,9 @@ const TooltipButton = ({ ...props }) => {
           display="flex"
           alignItems="center"
           marginRight={mobile ? '10px' : 0}
+          height={mobile ? '52px' : null}
         >
-          <IconButton onClick={onClick}>
+          <IconButton className={classes.icon} onClick={onClick}>
             <FontAwesomeIcon icon={icon} />
           </IconButton>
           {mobile && <Typography>{title} </Typography>}

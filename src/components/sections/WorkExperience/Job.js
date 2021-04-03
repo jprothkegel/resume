@@ -21,7 +21,9 @@ const Job = ({ ...props }) => {
           <Typography className={classes.date}>{date} </Typography>
           <ul>
             {descriptions.map((description, index) => (
-              <li key={index}>{description}</li>
+              <li key={index} className={classes.li}>
+                {description}
+              </li>
             ))}
           </ul>
         </Box>
