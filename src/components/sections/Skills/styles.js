@@ -18,4 +18,7 @@ export const useSkillContainerStyles = makeStyles(() => ({
     fontWeight: 600,
     marginLeft: 10
   },
+  icon: {
+    color: '#666666'
+  }
 }));

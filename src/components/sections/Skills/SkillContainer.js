@@ -10,7 +10,7 @@ const SkillContainer = ({ ...props }) => {
   return (
     <Paper className={classes.container}>
       <Box display="flex" alignItems="center">
-        <FontAwesomeIcon size="2x" icon={icon} />
+        <FontAwesomeIcon color="#666666" size="2x" icon={icon} />
         <Typography className={classes.title}>{title} </Typography>
       </Box>
       <ul>
