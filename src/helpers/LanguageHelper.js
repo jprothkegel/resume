@@ -26,7 +26,7 @@ export const LanguagesMapper = new Map([
     'de',
     {
       image:
-        'https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png',
+        'https://cdn.pixelprivacy.com/wp-content/uploads/2018/05/german-flag.png',
       level: 66,
     },
   ],
