@@ -1,6 +1,6 @@
 {
   "name": "resume",
-  "version": "0.5.3",
+  "version": "0.6.0",
   "private": true,
   "homepage": "https://jprothkegel.github.io/resume",
   "dependencies": {
