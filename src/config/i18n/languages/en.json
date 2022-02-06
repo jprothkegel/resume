@@ -17,30 +17,19 @@
         "title": "Ripley",
         "date": "September 2019 - Present",
         "charge": "Full Stack Software Engineer",
-        "descriptions": [
-          "Worked in the Customer Care team to create the new after sale platform for Chile and Peru. Helping around 400000 customers a month. Providing an easier way for customers to check their purchase status, update their personal data and be able to file a claim.",
-          "Started the creation of a purchase tracking system, to track around 1.000.000 products a month. Using NodeJs and Express, implemented as microservices in AWS.",
-          "Mentored 3 new developers on React.",
-          "Started the inclusion of Terraform within the teamm, to reduce the resource time creation by about 60%."
-        ]
+        "descriptions": "Worked in the Customer Care team to create the new after sale platform for Chile and Peru. Helping around 400000 customers a month. Providing an easier way for customers to check their purchase status, update their personal data and be able to file a claim.\n\nStarted the creation of a purchase tracking system, to track around 1.000.000 products a month. Using NodeJs and Express, implemented as microservices in AWS.\n\nMentored 3 new developers on React.\n\nStarted the inclusion of Terraform within the team, to reduce the resource time creation by about 60%."
       },
       "pucv": {
-        "title": "Pontificia Universidad Católica de Valparaíso",
+        "title": "PUCV",
         "date": "August 2018 - August 2019",
         "charge": "Tech Project Analyst",
-        "descriptions": [
-          "Created a Wifi saturation indicator for the University to show the students the best spot to connect, the usage was around 40% from all the students. Used VueJs for the FrontEnd and NodeJs with Express for the BackEnd.",
-          "Started the creation of a live lessons streaming service for approximately 30% of the students initally."
-        ]
+        "descriptions": "Created a Wifi saturation indicator for the University to show the students the best spot to connect, the usage was around 40% from all the students. Used VueJs for the FrontEnd and NodeJs with Express for the BackEnd.\n\nStarted the creation of a live lessons streaming service for approximately 30% of the students initially."
       },
       "ibm": {
         "title": "IBM",
         "date": "January 2018 - August 2018",
         "charge": "Software Engineer Intern",
-        "descriptions": [
-          "Developed a cognitive chat using IBM's Watson for Antofagasta Minerals, to decrease the calls to the call center by 40% initially.",
-          "Created a Dashboard to analyze the data from the chatbot using VueJs."
-        ]
+        "descriptions": "Developed a cognitive chat using IBM's Watson for Antofagasta Minerals, to decrease the calls to the call center by 40% initially.\n\nCreated a Dashboard to analyze the data from the chatbot using VueJs."
       }
     },
     "education": {

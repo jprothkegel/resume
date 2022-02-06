@@ -7,7 +7,7 @@ export const eduToPhotoMapper = new Map([
     'usm',
     {
       image:
-        'https://revista.sansanos.cl/wp-content/uploads/2011/11/utfsm-600x264.jpg',
+        'https://www.bu.edu/pasi/files/2010/06/usm-evening640x480.jpg',
       link: USM,
     },
   ],

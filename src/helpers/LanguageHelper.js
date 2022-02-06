@@ -26,7 +26,7 @@ export const LanguagesMapper = new Map([
     'de',
     {
       image:
-        'https://cdn.pixelprivacy.com/wp-content/uploads/2018/05/german-flag.png',
+        'https://ogletree.com/app/uploads/flags/germany.png',
       level: 66,
     },
   ],

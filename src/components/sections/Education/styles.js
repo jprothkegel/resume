@@ -15,4 +15,7 @@ export const useUniversityCardStyles = makeStyles(() => ({
   container: {
     width: '100%',
   },
+  card: {
+    borderRadius: 10
+  }
 }));

@@ -1,4 +1,4 @@
-import { createMuiTheme } from '@material-ui/core';
+import { createMuiTheme } from '@material-ui/core/styles';
 
 const MainTheme = createMuiTheme({
   typography: {
@@ -10,6 +10,9 @@ const MainTheme = createMuiTheme({
         body: {
           backgroundColor: '#00aaad',
         },
+        html: {
+          scrollBehavior: 'smooth'
+        }
       },
     },
   },

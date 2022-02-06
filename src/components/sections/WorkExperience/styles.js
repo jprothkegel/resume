@@ -14,18 +14,47 @@ export const useJobStyles = makeStyles(() => ({
   },
   link: {
     color: 'black',
+    textDecoration: 'none',
   },
   image: {
     height: 20,
     width: 'auto',
-    marginRight: 10,
+  },
+  titleContainer: {
+    marginTop: 20,
+    marginBottom: 20,
+    padding: '10px 16px',
+    display: "flex",
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    borderRadius: 10,
   },
   container: {
     marginTop: 20,
     marginBottom: 20,
     padding: '10px 16px',
+    borderRadius: 10
   },
   li: {
     textAlign: 'justify',
+  },
+  textDescription: {
+    marginTop: 16,
+    fontSize: 13,
+    textAlign: 'center',
+    whiteSpace: 'pre-wrap',
+  },
+  fabSection: {
+    position: 'absolute',
+    bottom: 0,
+    backgroundImage:
+      'linear-gradient(to bottom, rgba(255,255,255,0), 10%, rgba(255,255,255,1))',
+    width: '100%',
+  },
+  fabButton: {
+    display: 'block',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    backgroundColor: "#00aaad"
   },
 }));

@@ -8,6 +8,7 @@ import { useTranslation } from 'react-i18next';
 const WorkExperience = ({ ...props }) => {
   const { mobile } = props;
   const { t } = useTranslation();
+
   return (
     <Grid container spacing={2}>
       {JOBS.map((job, index) => (
@@ -17,9 +18,7 @@ const WorkExperience = ({ ...props }) => {
             title={t(`jobs.${job}.title`)}
             charge={t(`jobs.${job}.charge`)}
             date={t(`jobs.${job}.date`)}
-            descriptions={t(`jobs.${job}.descriptions`, {
-              returnObjects: true,
-            })}
+            descriptions={t(`jobs.${job}.descriptions`)}
             link={jobMapper.get(job).link}
             image={jobMapper.get(job).image}
             mobile={mobile}

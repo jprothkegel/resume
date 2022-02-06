@@ -12,6 +12,7 @@ export const useSkillsStyles = makeStyles(() => ({
 export const useSkillContainerStyles = makeStyles(() => ({
   container: {
     padding: 16,
+    borderRadius: 10,
   },
   title: {
     fontSize: 18,
@@ -20,5 +21,9 @@ export const useSkillContainerStyles = makeStyles(() => ({
   },
   icon: {
     color: '#666666'
+  },
+  chip: {
+    marginTop: 10,
+    marginRight: 10,
   }
 }));

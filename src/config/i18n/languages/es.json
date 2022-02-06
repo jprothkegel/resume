@@ -16,30 +16,19 @@
         "title": "Ripley",
         "date": "Septiembre 2019 - Presente",
         "charge": "Ingeniero de Software Full Stack",
-        "descriptions": [
-          "Participar en el equipo de Atención al Cliente para crear la nueva plataforma de postventa para Chile y Perú. Ayudando a unos 400.000 clientes al mes. Proporcionando una manera más fácil para que los clientes verifiquen el estado de sus compras, actualicen sus datos personales y puedan presentar un reclamo.",
-          "Iniciar la creación de un sistema de seguimiento de compras, para rastrear alrededor de 1.000.000 de productos al mes. Usando NodeJs y Express, implementados como microservicios en AWS.",
-          "Asesorar a 3 nuevos desarrollos en React.",
-          "Iniciar la inclusión de Terraform dentro del equipo, para reducir la creación de tiempo de recursos en aproximadamente un 60%."
-        ]
+        "descriptions": "Participar en el equipo de Atención al Cliente para crear la nueva plataforma de postventa para Chile y Perú. Ayudando a unos 400.000 clientes al mes. Proporcionando una manera más fácil para que los clientes verifiquen el estado de sus compras, actualicen sus datos personales y puedan presentar un reclamo.\n\nIniciar la creación de un sistema de seguimiento de compras, para rastrear alrededor de 1.000.000 de productos al mes. Usando NodeJs y Express, implementados como microservicios en AWS.\n\nAsesorar a 3 nuevos desarrollos en React.\n\nIniciar la inclusión de Terraform dentro del equipo, para reducir la creación de tiempo de recursos en aproximadamente un 60%."
       },
       "pucv": {
-        "title": "Pontificia Universidad Católica de Valparaíso",
+        "title": "PUCV",
         "date": "Agosto 2018 - Agosto 2019",
         "charge": "Analista de proyectos tecnológico",
-        "descriptions": [
-          "Crear un indicador de saturación de Wifi para la Universidad para mostrar a los estudiantes el mejor lugar para conectarse, el uso fue de alrededor del 40% de todos los estudiantes. Se usó VueJs para FrontEnd y NodeJs con Express para BackEnd.",
-          "Iniciar la creación de un servicio de transmisión de clases en vivo para aproximadamente el 30% de los estudiantes inicialmente."
-        ]
+        "descriptions": "Crear un indicador de saturación de Wifi para la Universidad para mostrar a los estudiantes el mejor lugar para conectarse, el uso fue de alrededor del 40% de todos los estudiantes. Se usó VueJs para FrontEnd y NodeJs con Express para BackEnd.\n\nIniciar la creación de un servicio de transmisión de clases en vivo para aproximadamente el 30% de los estudiantes inicialmente."
       },
       "ibm": {
         "title": "IBM",
         "date": "Enero 2018 - Agosto 2018",
         "charge": "Pasante en Ingeniería de Software",
-        "descriptions": [
-          "Desarrollar un chat cognitivo usando Watson de IBM para Antofagasta Minerals, para disminuir las llamadas al centro de llamadas en un 40% inicialmente.",
-          "Crear un tablero para analizar los datos del chatbot usando VueJs."
-        ]
+        "descriptions": "Desarrollar un chat cognitivo usando Watson de IBM para Antofagasta Minerals, para disminuir las llamadas al centro de llamadas en un 40% inicialmente.\n\nCrear un tablero para analizar los datos del chatbot usando VueJs."
       }
     },
     "education": {
