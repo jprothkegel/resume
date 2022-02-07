@@ -5,3 +5,4 @@ export const KIT = process.env.REACT_APP_KIT;
 export const RIPLEY = process.env.REACT_APP_RIPLEY;
 export const PUCV = process.env.REACT_APP_PUCV;
 export const IBM = process.env.REACT_APP_IBM;
+export const MATTERWAY = process.env.REACT_APP_MATTERWAY;

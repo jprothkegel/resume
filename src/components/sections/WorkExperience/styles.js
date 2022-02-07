@@ -55,6 +55,6 @@ export const useJobStyles = makeStyles(() => ({
     display: 'block',
     marginLeft: 'auto',
     marginRight: 'auto',
-    backgroundColor: "#00aaad"
+    backgroundColor: "#00aaad !important"
   },
 }));

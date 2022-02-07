@@ -12,9 +12,15 @@
       "summary": "Muy apasionado por el Front End y la experiencia del usuario con más de 2 años de experiencia profesional en la creación de aplicaciones web escalables y fáciles de usar. Siempre adquiriendo nuevos conocimientos, y aprendiendo las mejores prácticas para mejorar mi trabajo y enseñar a los que me rodean. Las áreas de especialización incluyen desarrollo Front End con React, desarrollo Back End usando NodeJs con Express, resolución de problemas competente, Scrum y metodologías ágiles. Me encanta hacer deportes como tenis, tenis de mesa y fútbol, ver anime y me apasiona la música, mi banda favorita de todos los tiempos es Oasis."
     },
     "jobs": {
+      "matterway": {
+        "title": "Matterway",
+        "date": "Julio 2021 - Present",
+        "charge": "Ingeniero Javascript",
+        "descriptions": "Participar en el equipo Satisfacción de cliente, creando soluciones automatizadas para Porsche. El asistente de automatizacón que se provee ayuda a reducir los tiempos de operación alrededor de un 80%.\n\nEl asistente ayuda a usar SAP o cualquier sistema de ERP de una manera amigable."
+      },
       "ripley": {
         "title": "Ripley",
-        "date": "Septiembre 2019 - Presente",
+        "date": "Septiembre 2019 - Junio 2021",
         "charge": "Ingeniero de Software Full Stack",
         "descriptions": "Participar en el equipo de Atención al Cliente para crear la nueva plataforma de postventa para Chile y Perú. Ayudando a unos 400.000 clientes al mes. Proporcionando una manera más fácil para que los clientes verifiquen el estado de sus compras, actualicen sus datos personales y puedan presentar un reclamo.\n\nIniciar la creación de un sistema de seguimiento de compras, para rastrear alrededor de 1.000.000 de productos al mes. Usando NodeJs y Express, implementados como microservicios en AWS.\n\nAsesorar a 3 nuevos desarrollos en React.\n\nIniciar la inclusión de Terraform dentro del equipo, para reducir la creación de tiempo de recursos en aproximadamente un 60%."
       },

@@ -13,9 +13,15 @@
       "summary": "Highly passionate about Front End and user experience with 2+ years of professional experience building scalable and user friendly web applications. Always adquiring new knowledge, and learning the best practices to improve my work and to teach the ones that sorround me. Areas of expertise include Front End development with React, Back End development using NodeJs with Express, proficient troubleshooting, Scrum & Agile Methodologies. Love to do sports like Tennis, Table Tennis and Football, to watch Anime and very passionate about Music, my all time favorite band is Oasis."
     },
     "jobs": {
+      "matterway": {
+        "title": "Matterway",
+        "date": "July 2021 - Present",
+        "charge": "Javascript Engineer",
+        "descriptions": "Worked in the Customer Success team, creating automated solutions for Porsche. The automation assistant we provide, helped to reduce operating times around 80%.\n\nThe assistant help to go through SAP or any ERP system on friendlier way."
+      },
       "ripley": {
         "title": "Ripley",
-        "date": "September 2019 - Present",
+        "date": "September 2019 - June 2021",
         "charge": "Full Stack Software Engineer",
         "descriptions": "Worked in the Customer Care team to create the new after sale platform for Chile and Peru. Helping around 400000 customers a month. Providing an easier way for customers to check their purchase status, update their personal data and be able to file a claim.\n\nStarted the creation of a purchase tracking system, to track around 1.000.000 products a month. Using NodeJs and Express, implemented as microservices in AWS.\n\nMentored 3 new developers on React.\n\nStarted the inclusion of Terraform within the team, to reduce the resource time creation by about 60%."
       },
