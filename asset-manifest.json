@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.1e44f040.css",
-    "main.js": "/resume/static/js/main.75ef62d7.js",
+    "main.js": "/resume/static/js/main.2ec330d0.js",
     "static/js/787.dc9ee2bf.chunk.js": "/resume/static/js/787.dc9ee2bf.chunk.js",
     "static/media/4209px-PUCV_Escudo2016.svg.png": "/resume/static/media/4209px-PUCV_Escudo2016.svg.ed096a2e511af320a038.png",
     "static/media/profile.jpeg": "/resume/static/media/profile.fd0a182fbc7d1a27db51.jpeg",
     "static/media/saupload_IBM-logo.jpeg": "/resume/static/media/saupload_IBM-logo.63a55f71cae80f64719a.jpeg",
     "index.html": "/resume/index.html",
     "main.1e44f040.css.map": "/resume/static/css/main.1e44f040.css.map",
-    "main.75ef62d7.js.map": "/resume/static/js/main.75ef62d7.js.map",
+    "main.2ec330d0.js.map": "/resume/static/js/main.2ec330d0.js.map",
     "787.dc9ee2bf.chunk.js.map": "/resume/static/js/787.dc9ee2bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e44f040.css",
-    "static/js/main.75ef62d7.js"
+    "static/js/main.2ec330d0.js"
   ]
 }
