@@ -15,7 +15,7 @@ export const eduToPhotoMapper = new Map([
     'kit',
     {
       image:
-        'https://static3.ka-news.de/storage/image/8/8/2/8/1578288_cms2image-fixed-760x552_1oC5vT_wWelfj.jpg',
+        'https://bilder.t-online.de/b/86/12/61/86/id_86126186/tid_da/logo-schriftzug-kit-karlsruhe-institut-of-technology-messe-cebit-2018-oeffnet-in-hannover-ihre-tore.jpg',
       link: KIT,
     },
   ],
